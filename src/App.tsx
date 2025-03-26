@@ -4,7 +4,8 @@
 // import StaleTime from "./components/StaleTime";
 // import RefetchInterval from "./components/RefetchInterval";
 // import FetchFromMultipEndpoints from "./components/FetchFromMultipEndpoints";
-import MutatingData from "./components/MutatingData";
+// import MutatingData from "./components/MutatingData";
+import Pagination from "./components/Pagination";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       {/* <StaleTime /> */}
       {/* <RefetchInterval /> */}
       {/* <FetchFromMultipEndpoints /> */}
-      <MutatingData />
+      {/* <MutatingData /> */}
+      <Pagination />
     </div>
   );
 };
