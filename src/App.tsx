@@ -1,11 +1,13 @@
-import React from 'react'
+import WithOutTanStackQuery from './components/WithOutTanStackQuery';
+import WithTanStackQuery from './components/WithTanStackQuery';
 
 const App = () => {
   return (
     <div>
-      App
+      {/* <WithOutTanStackQuery /> */}
+      <WithTanStackQuery />
     </div>
-  )
-}
+  );
+};
 
 export default App;
