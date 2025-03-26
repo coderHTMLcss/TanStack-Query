@@ -3,7 +3,8 @@
 // import Duplication from "./components/Duplication";
 // import StaleTime from "./components/StaleTime";
 // import RefetchInterval from "./components/RefetchInterval";
-import FetchFromMultipEndpoints from "./components/FetchFromMultipEndpoints";
+// import FetchFromMultipEndpoints from "./components/FetchFromMultipEndpoints";
+import MutatingData from "./components/MutatingData";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Duplication /> */}
       {/* <StaleTime /> */}
       {/* <RefetchInterval /> */}
-      <FetchFromMultipEndpoints />
+      {/* <FetchFromMultipEndpoints /> */}
+      <MutatingData />
     </div>
   );
 };

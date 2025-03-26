@@ -30,7 +30,12 @@ const FetchFromMultipleEndpoints = () => {
                 {todoQuery.isLoading && <p>Loading...</p>}
                 {todoQuery.error && <p>Error: {todoQuery.error.message}</p>}
                 {todoQuery.data && <pre>{JSON.stringify(todoQuery.data, null, 2)}</pre>}
-                <button onClick={() => setCurrentTodoId((prev) => prev + 1)}>Next Todo</button>
+                <button
+                    className="px-4 py-2 mt-4 rounded bg-purple-400 text-white"
+                    onClick={() => setCurrentTodoId((prev) => prev + 1)}
+                >
+                    Next Todo
+                </button>
             </div>
 
             <div>
@@ -38,7 +43,12 @@ const FetchFromMultipleEndpoints = () => {
                 {userQuery.isLoading && <p>Loading...</p>}
                 {userQuery.error && <p>Error: {userQuery.error.message}</p>}
                 {userQuery.data && <pre>{JSON.stringify(userQuery.data, null, 2)}</pre>}
-                <button onClick={() => setCurrentUserId((prev) => prev + 1)}>Next User</button>
+                <button
+                    className="px-4 py-2 mt-4 rounded bg-purple-400 text-white"
+                    onClick={() => setCurrentUserId((prev) => prev + 1)}
+                >
+                    Next User
+                </button>
             </div>
 
             <div>
@@ -46,7 +56,12 @@ const FetchFromMultipleEndpoints = () => {
                 {postQuery.isLoading && <p>Loading...</p>}
                 {postQuery.error && <p>Error: {postQuery.error.message}</p>}
                 {postQuery.data && <pre>{JSON.stringify(postQuery.data, null, 2)}</pre>}
-                <button onClick={() => setCurrentPostId((prev) => prev + 1)}>Next Post</button>
+                <button
+                    className="px-4 py-2 mt-4 rounded bg-purple-400 text-white"
+                    onClick={() => setCurrentPostId((prev) => prev + 1)}
+                >
+                    Next Post
+                </button>
             </div>
         </div>
     );
